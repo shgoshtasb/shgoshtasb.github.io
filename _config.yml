@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Dr. Shirin Goshtasbpour # the website title (if blank, full name will be used instead)
+first_name: Shirin
+middle_name: 
+last_name: Goshtasbpour
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -18,7 +18,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
+url: https://shgoshtasb.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -50,7 +50,7 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
@@ -97,8 +97,8 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
-  max_related: 5
+  enabled: false
+  max_related: 0
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -188,6 +188,12 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/repositories.md
+  - _pages/projects.md
+  - _pages/blog.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/dropdown.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -630,7 +636,7 @@ jsonresume:
   - publications
   - projects
   - volunteer
-  - awards
+  - grants
   - certificates
   - skills
   - languages
