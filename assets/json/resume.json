@@ -1,114 +1,40 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shirin Goshtasbpour",
+    "label": "Postdoctoral Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "shgoshtasb@sdsc.ethz.ch",
+    "url": "https://shgoshtasb.github.io/",
+    "summary": "Passionate about modeling complex stochastic dynamical systems, enthusiastic about fundamental and applied research in statistical modeling and machine learning"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "<a href='datascience.ch'>Swiss Data Science Center</a>",
+      "position": "Postdosctoral Researcher",
+      "startDate": "2024-06-01",
+      "endDate": "Present",
+      "summary": "Developing autoregressive and generative models that explain the formation of extreme climate conditions. Research on diffusion based Bayesian inference for rare event synthesis. Collaborating on development of a marine debris tracking framework with diffusion time-series models.",
+      "highlights": ["Generative Modeling and Bayesian Statistics"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Department of Computer Sciences, ETH Zurich",
       "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "url": "https://inf.ethz.ch/",
+      "area": "Data Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "startDate": "2019-10-01",
+      "endDate": "2024-02-26",
       "courses": ["Theory of Relativity"]
     }
   ],
-  "awards": [
+  "grants": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
+      "title": "Marie-Sklodowska Curie fellow",
+      "date": "2019-09-01",
       "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "summary": "Received an early stage researcher grant for doctoral studies on application of machine learning in wirless networks"
     }
   ],
   "publications": [
